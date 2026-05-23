@@ -16,7 +16,15 @@ Developed at CSIR-IGIB for rare disease WES variant visualization.
 ## Workflow
 
 ### Step 1 — Prepare input file
-Create `bam_region.txt` (tab or space separated):                 
+Create `bam_region.txt` (tab or space separated):
+
+```
+SAMPLE001.bam chr1:99861524-99861524
+SAMPLE002.bam chr2:218812300-218812300
+SAMPLE003.bam chr3:38613773-38613773
+SAMPLE004.bam chr3:165830741-165830741
+```
+
 ### Step 2 — Generate IGV scripts
 ```bash
 python generate_igv_script.py \
