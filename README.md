@@ -60,6 +60,7 @@ python generate_igv_script.py \
 ---
 
 ## Requirements
+- Linux operating system
 - Python 3.8+
 - IGV installed and `igv.sh` in PATH
 
