@@ -1,4 +1,3 @@
-# igv-snapshot-automation
 # IGV Snapshot Automation
 
 Automates IGV (Integrative Genomics Viewer) batch snapshot generation 
